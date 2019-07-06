@@ -1,9 +1,9 @@
 name = 'Zed A. Shaw'
 age = 35 # not a lie
 height = 74 #inches
-height_cm = height * 2.54
+height_cm = round(height * 2.54, 2)
 weight = 180 #lbs
-weight_kg = weight / 2.205
+weight_kg = round(weight / 2.205, 3)
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
